@@ -1,5 +1,6 @@
-# pyhiome
-Community Contributed Python Binding for the Hiome HomeKit Occupancy Sensor Solution
+PyHiome
+=======================
+
 
 
 This project is offered under and Apache2 license and is not supported officialy by Hiome.
