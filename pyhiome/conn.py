@@ -19,13 +19,14 @@ class HiomeCore:
     pass the authentication credentials
     """
 
-    def __init__(self, ipaddress):
+    def __init__(self, ipaddress, api='1'):
         """
         This class acts as the auth object for the Hiome API.
         :param ipaddress: str object which contains the IP address or DNS name of the target Hiome Core Device
         """
 
         self.ipaddress = ipaddress
+        self.api_version = api
         self.headers = {
             'Accept': 'application/json', 'Content-Type':
                 'application/json', 'Accept-encoding': 'application/json'}
